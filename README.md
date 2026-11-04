@@ -1,8 +1,8 @@
-# 🚢 Titanic Survival – Exploratory Data Analysis (EDA)
+# Titanic Survival – Exploratory Data Analysis (EDA)
 
 A beginner-friendly, step-by-step Exploratory Data Analysis of the classic Titanic passenger dataset, done in a Jupyter Notebook with Python. The notebook walks through data loading, cleaning, and univariate, bivariate and multivariate visualization to understand which factors relate to passenger survival.
 
-## 📌 Objectives
+##  Objectives
 
 - Understand the structure and quality of the Titanic dataset
 - Detect and handle missing values, duplicates and outliers
@@ -11,7 +11,7 @@ A beginner-friendly, step-by-step Exploratory Data Analysis of the classic Titan
 - Combine several variables in a single view (multivariate analysis)
 - Learn which plot to use for which type of variable
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 .
@@ -39,7 +39,7 @@ A beginner-friendly, step-by-step Exploratory Data Analysis of the classic Titan
 | `Cabin` | Cabin number |
 | `Embarked` | Port of embarkation (C, Q, S) |
 
-## 🧹 Data Cleaning Summary
+## Data Cleaning Summary
 
 | Issue | Finding | Action taken |
 |---|---|---|
@@ -50,7 +50,7 @@ A beginner-friendly, step-by-step Exploratory Data Analysis of the classic Titan
 
 The notebook also compares survival rate and the age distribution *before* (dropping rows) and *after* (median imputation) handling missing Age values to show how the choice affects the analysis.
 
-## 🔍 Analysis Performed
+##  Analysis Performed
 
 **Univariate analysis**
 - Count plots for `Survived`, `Sex` (Seaborn, Matplotlib and Plotly versions) and `Embarked`
@@ -74,7 +74,7 @@ The notebook also compares survival rate and the age distribution *before* (drop
 - Which plot type to use for which variable combination
 - Rules of thumb for missing-value handling and correlation strength
 
-## 💡 Key Observations
+##  Key Observations
 
 - Of the 891 passengers, about 38% survived (342 survived, 549 did not).
 - Survival was strongly linked to gender: among the 889 passengers kept after cleaning, 231 of 312 women survived versus 109 of 577 men.
