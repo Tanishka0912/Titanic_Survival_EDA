@@ -1,4 +1,4 @@
-# Titanic Survival – Exploratory Data Analysis (EDA)
+# Titanic Survival – Exploratory Data Analysis
 
 A beginner-friendly, step-by-step Exploratory Data Analysis of the classic Titanic passenger dataset, done in a Jupyter Notebook with Python. The notebook walks through data loading, cleaning, and univariate, bivariate and multivariate visualization to understand which factors relate to passenger survival.
 
